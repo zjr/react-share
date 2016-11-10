@@ -1,4 +1,3 @@
 node_modules/
-lib/
 *.log
 demos/demo0/bundle.js
