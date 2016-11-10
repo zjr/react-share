@@ -13,7 +13,7 @@
     "build-demos": "NODE_ENV=production webpack -p --config webpack.demos.config.js",
     "run-demos": "NODE_ENV=development webpack-dev-server --config webpack.demos.config.js --content-base demos/ --progress --colors",
     "lint": "eslint --ext .jsx ./src ./demos",
-    "prepublish": "npm run build",
+    "preinstall": "npm run build",
     "start": "npm run run-demos"
   },
   "keywords": [
